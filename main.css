@@ -1,0 +1,25 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: #ececec;
+}
+#content {
+    height: 100%;
+    margin-top: 100px;
+}
+#boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.box {
+    padding: 75px;
+    margin: 0 20px;
+    margin-top: 30px;
+    background-color: #3a3b3c;
+}
+.grey {
+    background-color: lightgray;
+}
